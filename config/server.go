@@ -13,7 +13,7 @@ func NewServer() *Server {
 	return &Server{
 		IP:         "",
 		User:       "",
-		SSHKeyFile: nil,
-		password:   nil,
+		SSHKeyFile: "",
+		password:   "",
 	}
 }
